@@ -7,6 +7,7 @@ box-sizing: border-box;
 
 }
 body{
+  background-color: #f8f9fa;
     
 }
   
@@ -16,8 +17,29 @@ table{
   background-color: #10502f;
   color: #ffffff;
   border: 2px solid black;
+  border-collapse: collapse;
+  box-shadow: 0px 2px 4px #8888
+  
 }
 
+
 td{ 
-    border: 2px solid white;
+   height: 40px;
+   width: 104px;
+   color: #9db7a9;
 }
+
+.nav-conteudo-lateral{
+  width: 400px;
+}
+.nave-destacado{
+
+  border-bottom: 3px solid #ffffff;
+  color: #ffffff;
+}
+
+.nave-destacado:hover{
+  background-color: #0e482a;
+  cursor: pointer;
+  
+ }

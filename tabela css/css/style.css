@@ -14,12 +14,13 @@ body{
 table{
   width: 100vw;
   text-align: center;
+
+}
+.de-cima{
   background-color: #10502f;
   color: #ffffff;
-  border: 2px solid black;
   border-collapse: collapse;
   box-shadow: 0px 2px 4px #8888
-  
 }
 
 
@@ -41,5 +42,15 @@ td{
 .nave-destacado:hover{
   background-color: #0e482a;
   cursor: pointer;
+  
+ }
+ .de-baixo{
+  border: 1px solid #e9eaeb;
+  border-top:none;
+  border-bottom: none;
+  width: 40vw;
+  margin-left: 30%;
+ }
+ .de-baixo-header{
   
  }

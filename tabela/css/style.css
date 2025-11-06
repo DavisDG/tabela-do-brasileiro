@@ -8,13 +8,14 @@ box-sizing: border-box;
 }
 body{
   background-color: #f8f9fa;
+  overflow-x: hidden;
     
 }
   
 table{
   width: 100vw;
   text-align: center;
-  border: black;
+  
   
   
 
@@ -34,6 +35,8 @@ td {
    height: 40px;
    width: 104px;
    color: #9db7a9;
+   
+  
   
  
 }
@@ -61,13 +64,15 @@ td {
   font-size: 0.75em;
   border-collapse: collapse;
   background-color: #ffffff;
-  border: 1px solid black;
+
+  
  }
  #de-baixo-header{
   padding: 15px;
   background-color: #f1f3f4;
   text-align: left;
   color: #70758d;
+  
  
  }
  #ano{
@@ -76,7 +81,7 @@ td {
   color: #4285f4;
  }
  th{
-  border: 1px solid black;
+ 
  }
 td img[
   src="palmeiras.png"
@@ -84,4 +89,6 @@ td img[
 {
   width: 5px; height: auto;
 }
-
+.de-baixo img{width: 25px;
+  
+}

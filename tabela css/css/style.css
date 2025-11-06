@@ -14,6 +14,7 @@ body{
 table{
   width: 100vw;
   text-align: center;
+  border: black;
   
   
 
@@ -29,10 +30,11 @@ table{
 }
 
 
-td{ 
+td { 
    height: 40px;
    width: 104px;
    color: #9db7a9;
+  
  
 }
 
@@ -76,3 +78,10 @@ td{
  th{
   border: 1px solid black;
  }
+td img[
+  src="palmeiras.png"
+]
+{
+  width: 5px; height: auto;
+}
+
